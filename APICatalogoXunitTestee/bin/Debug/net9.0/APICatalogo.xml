@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>APICatalogo</name>
+    </assembly>
+    <members>
+        <member name="M:APICatalogo.Controllers.CategoriasController.GetAsync(APICatalogo.Pagination.CategoriasParameters)">
+            <summary>
+            Obtem uma lista de objetos Categoria
+            </summary>
+            <returns>Uma lista de objetos Categoria</returns>
+        </member>
+        <member name="M:APICatalogo.Controllers.CategoriasController.GetAsync(System.Int32)">
+            <summary>
+            Obtem uma catagoria por id
+            </summary>
+            <param name="id"></param>
+            <returns>Objetos Categoria</returns>
+        </member>
+        <member name="M:APICatalogo.Controllers.CategoriasController.PostAsync(APICatalogo.DTOs.CategoriaDTO)">
+            <summary>
+            Inclui uma nova categoria
+            </summary>
+            <remarks>
+            Exemplo de request:
+            </remarks>
+            <param name="categoriaDto"></param>
+            <returns>O objeto Categoria incluida</returns>
+        </member>
+        <member name="T:APICatalogo.Migrations.v10">
+            <inheritdoc />
+        </member>
+        <member name="M:APICatalogo.Migrations.v10.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:APICatalogo.Migrations.v10.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:APICatalogo.Migrations.v10.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:APICatalogo.Migrations.v11">
+            <inheritdoc />
+        </member>
+        <member name="M:APICatalogo.Migrations.v11.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:APICatalogo.Migrations.v11.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:APICatalogo.Migrations.v11.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:APICatalogo.Migrations.PopulaCategorias">
+            <inheritdoc />
+        </member>
+        <member name="M:APICatalogo.Migrations.PopulaCategorias.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:APICatalogo.Migrations.PopulaCategorias.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:APICatalogo.Migrations.PopulaCategorias.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:APICatalogo.Migrations.CriaTabelasIdentity">
+            <inheritdoc />
+        </member>
+        <member name="M:APICatalogo.Migrations.CriaTabelasIdentity.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:APICatalogo.Migrations.CriaTabelasIdentity.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:APICatalogo.Migrations.CriaTabelasIdentity.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:APICatalogo.Migrations.CriaTabelasIdentity1">
+            <inheritdoc />
+        </member>
+        <member name="M:APICatalogo.Migrations.CriaTabelasIdentity1.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:APICatalogo.Migrations.CriaTabelasIdentity1.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:APICatalogo.Migrations.CriaTabelasIdentity1.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:APICatalogo.Migrations.ajusteAplicationUser">
+            <inheritdoc />
+        </member>
+        <member name="M:APICatalogo.Migrations.ajusteAplicationUser.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:APICatalogo.Migrations.ajusteAplicationUser.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:APICatalogo.Migrations.ajusteAplicationUser.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>
